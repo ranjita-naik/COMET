@@ -37,7 +37,7 @@ python = "^3.6.1"
 PyYAML = "5.3.*"
 pandas = "^1.0.0"
 scikit-learn = "0.24"
-torch = "<=1.6"
+torch = {url = "https://download.pytorch.org/whl/cu92/torch-1.4.0%2Bcu92-cp37-cp37m-win_amd64.whl"}
 numpy = "<1.20.0"
 scipy = "1.5.*"
 tensorboard = "2.2.0"
